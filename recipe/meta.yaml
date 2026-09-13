@@ -11,7 +11,7 @@
 
 package:
   name: pocl-core
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   - url: https://github.com/pocl/pocl/archive/refs/tags/v{{ version.replace(".rc", "-RC") }}.tar.gz
