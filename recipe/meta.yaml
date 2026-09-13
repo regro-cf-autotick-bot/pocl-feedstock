@@ -17,7 +17,6 @@ source:
   - url: https://github.com/pocl/pocl/archive/refs/tags/v{{ version.replace(".rc", "-RC") }}.tar.gz
     sha256: 7ddc01a7afcd49d4ec7fa9bf94df20852db44fcda629a9763086a8c541e5da1e
     patches:
-      - patches/0002-pocld.patch
       - patches/0003-switch-to-newer-find_package-CUDAToolkit-for-CUDA-12.patch
       # https://github.com/conda-forge/pocl-feedstock/pull/106#issuecomment-2467398973
       - patches/disable-cuda-test.patch
